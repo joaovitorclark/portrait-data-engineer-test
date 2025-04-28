@@ -3646,3 +3646,556 @@
 [2025-04-28T15:43:53.826+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:53.825+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T15:43:53.832+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:53.832+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
 [2025-04-28T15:43:53.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.201 seconds
+[2025-04-28T15:44:24.437+0000] {processor.py:161} INFO - Started process (PID=6560) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:24.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:44:24.440+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:24.439+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:24.585+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:24.603+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:24.603+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:44:24.608+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:24.608+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:44:24.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.186 seconds
+[2025-04-28T15:44:55.198+0000] {processor.py:161} INFO - Started process (PID=6595) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:55.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:44:55.201+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:55.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:55.358+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:44:55.372+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:55.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:44:55.377+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:55.377+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:44:55.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.198 seconds
+[2025-04-28T15:45:25.980+0000] {processor.py:161} INFO - Started process (PID=6630) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:25.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:45:25.985+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:25.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:26.126+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:26.141+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:26.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:45:26.148+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:26.148+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:45:26.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.186 seconds
+[2025-04-28T15:45:56.746+0000] {processor.py:161} INFO - Started process (PID=6665) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:56.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:45:56.750+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:56.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:56.897+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:45:56.914+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:56.914+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:45:56.921+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:45:56.921+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:45:56.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.192 seconds
+[2025-04-28T15:46:27.467+0000] {processor.py:161} INFO - Started process (PID=6700) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:27.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:46:27.469+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:27.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:27.613+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:27.628+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:27.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:46:27.636+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:27.635+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:46:27.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T15:46:58.263+0000] {processor.py:161} INFO - Started process (PID=6735) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:58.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:46:58.266+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:58.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:58.417+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:46:58.432+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:58.431+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:46:58.437+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:46:58.437+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:46:58.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.192 seconds
+[2025-04-28T15:47:29.017+0000] {processor.py:161} INFO - Started process (PID=6770) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:29.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:47:29.020+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:29.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:29.169+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:29.185+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:29.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:47:29.191+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:29.191+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:47:29.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.190 seconds
+[2025-04-28T15:47:59.788+0000] {processor.py:161} INFO - Started process (PID=6805) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:59.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:47:59.789+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:59.789+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:59.940+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:47:59.957+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:59.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:47:59.966+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:47:59.966+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:47:59.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.194 seconds
+[2025-04-28T15:48:30.574+0000] {processor.py:161} INFO - Started process (PID=6840) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:48:30.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:48:30.581+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:48:30.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:48:30.721+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:48:30.737+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:48:30.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:48:30.746+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:48:30.745+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:48:30.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.188 seconds
+[2025-04-28T15:49:01.358+0000] {processor.py:161} INFO - Started process (PID=6875) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:01.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:49:01.360+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:01.359+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:01.504+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:01.520+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:01.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:49:01.526+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:01.526+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:49:01.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T15:49:32.099+0000] {processor.py:161} INFO - Started process (PID=6910) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:32.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:49:32.103+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:32.103+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:32.247+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:49:32.262+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:32.261+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:49:32.268+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:49:32.268+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:49:32.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T15:50:02.844+0000] {processor.py:161} INFO - Started process (PID=6945) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:02.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:50:02.847+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:02.847+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:02.993+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:03.009+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:03.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:50:03.015+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:03.015+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:50:03.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.188 seconds
+[2025-04-28T15:50:33.562+0000] {processor.py:161} INFO - Started process (PID=6980) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:33.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:50:33.565+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:33.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:33.712+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:50:33.728+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:33.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:50:33.735+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:50:33.735+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:50:33.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.191 seconds
+[2025-04-28T15:51:04.380+0000] {processor.py:161} INFO - Started process (PID=7015) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:04.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:51:04.382+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:04.382+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:04.529+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:04.542+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:04.542+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:51:04.549+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:04.549+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:51:04.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T15:51:35.146+0000] {processor.py:161} INFO - Started process (PID=7050) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:35.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:51:35.147+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:35.147+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:35.292+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:51:35.306+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:35.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:51:35.315+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:51:35.315+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:51:35.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T15:52:05.907+0000] {processor.py:161} INFO - Started process (PID=7085) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:05.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:52:05.909+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:05.909+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:06.058+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:06.071+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:06.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:52:06.079+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:06.079+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:52:06.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.189 seconds
+[2025-04-28T15:52:36.671+0000] {processor.py:161} INFO - Started process (PID=7120) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:36.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:52:36.673+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:36.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:36.819+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:52:36.834+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:36.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:52:36.841+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:52:36.841+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:52:36.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.187 seconds
+[2025-04-28T15:53:07.399+0000] {processor.py:161} INFO - Started process (PID=7155) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:07.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:53:07.401+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:07.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:07.562+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:07.578+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:07.577+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:53:07.585+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:07.585+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:53:07.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.204 seconds
+[2025-04-28T15:53:38.160+0000] {processor.py:161} INFO - Started process (PID=7190) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:38.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:53:38.162+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:38.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:38.311+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:53:38.326+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:38.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:53:38.334+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:53:38.333+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:53:38.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.193 seconds
+[2025-04-28T15:54:08.898+0000] {processor.py:161} INFO - Started process (PID=7225) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:08.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:54:08.901+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:08.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:09.044+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:09.060+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:09.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:54:09.065+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:09.065+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:54:09.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T15:54:39.722+0000] {processor.py:161} INFO - Started process (PID=7260) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:39.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:54:39.725+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:39.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:39.871+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:54:39.885+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:39.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:54:39.891+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:54:39.891+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:54:39.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.187 seconds
+[2025-04-28T15:55:10.487+0000] {processor.py:161} INFO - Started process (PID=7295) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:10.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:55:10.492+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:10.492+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:10.639+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:10.653+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:10.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:55:10.663+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:10.663+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:55:10.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.190 seconds
+[2025-04-28T15:55:41.233+0000] {processor.py:161} INFO - Started process (PID=7330) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:41.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:55:41.235+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:41.235+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:41.383+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:55:41.399+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:41.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:55:41.405+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:55:41.405+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:55:41.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.190 seconds
+[2025-04-28T15:56:12.064+0000] {processor.py:161} INFO - Started process (PID=7365) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:12.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:56:12.067+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:12.066+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:12.221+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:12.236+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:12.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:56:12.242+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:12.242+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:56:12.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.195 seconds
+[2025-04-28T15:56:42.854+0000] {processor.py:161} INFO - Started process (PID=7400) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:42.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:56:42.856+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:42.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:42.997+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:56:43.012+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:43.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:56:43.019+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:56:43.018+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:56:43.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.179 seconds
+[2025-04-28T15:57:13.639+0000] {processor.py:161} INFO - Started process (PID=7435) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:13.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:57:13.642+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:13.641+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:13.789+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:13.804+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:13.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:57:13.809+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:13.809+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:57:13.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.188 seconds
+[2025-04-28T15:57:44.378+0000] {processor.py:161} INFO - Started process (PID=7470) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:44.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:57:44.382+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:44.382+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:44.530+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:57:44.545+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:44.545+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:57:44.550+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:57:44.550+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:57:44.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.189 seconds
+[2025-04-28T15:58:15.128+0000] {processor.py:161} INFO - Started process (PID=7505) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:15.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:58:15.130+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:15.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:15.274+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:15.289+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:15.289+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:58:15.296+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:15.296+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:58:15.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T15:58:45.915+0000] {processor.py:161} INFO - Started process (PID=7540) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:45.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:58:45.917+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:45.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:46.065+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:58:46.080+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:46.080+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:58:46.086+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:58:46.086+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:58:46.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T15:59:16.662+0000] {processor.py:161} INFO - Started process (PID=7575) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:16.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:59:16.664+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:16.664+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:16.814+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:16.828+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:16.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:59:16.833+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:16.833+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:59:16.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.192 seconds
+[2025-04-28T15:59:47.466+0000] {processor.py:161} INFO - Started process (PID=7610) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:47.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T15:59:47.468+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:47.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:47.613+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T15:59:47.627+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:47.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:59:47.634+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:59:47.634+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T15:59:47.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T16:00:18.214+0000] {processor.py:161} INFO - Started process (PID=7645) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:18.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:00:18.216+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:18.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:18.361+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:18.376+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:18.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:00:18.381+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:18.381+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:00:18.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T16:00:48.981+0000] {processor.py:161} INFO - Started process (PID=7680) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:48.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:00:48.983+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:48.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:49.132+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:00:49.146+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:49.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:00:49.153+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:00:49.153+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:00:49.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.189 seconds
+[2025-04-28T16:01:19.745+0000] {processor.py:161} INFO - Started process (PID=7715) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:19.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:01:19.747+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:19.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:19.894+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:19.910+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:19.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:01:19.916+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:19.916+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:01:19.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.191 seconds
+[2025-04-28T16:01:50.501+0000] {processor.py:161} INFO - Started process (PID=7750) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:50.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:01:50.503+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:50.503+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:50.645+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:01:50.665+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:50.665+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:01:50.670+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:01:50.670+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:01:50.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:02:21.286+0000] {processor.py:161} INFO - Started process (PID=7785) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:21.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:02:21.288+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:21.288+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:21.434+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:21.447+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:21.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:02:21.452+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:21.452+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:02:21.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T16:02:52.080+0000] {processor.py:161} INFO - Started process (PID=7820) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:52.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:02:52.082+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:52.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:52.225+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:02:52.240+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:52.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:02:52.247+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:02:52.246+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:02:52.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.180 seconds
+[2025-04-28T16:03:22.811+0000] {processor.py:161} INFO - Started process (PID=7855) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:22.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:03:22.813+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:22.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:22.957+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:22.973+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:22.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:03:22.979+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:22.979+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:03:22.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:03:53.552+0000] {processor.py:161} INFO - Started process (PID=7889) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:53.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:03:53.554+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:53.553+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:53.706+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:03:53.723+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:53.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:03:53.729+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:03:53.729+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:03:53.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.194 seconds
+[2025-04-28T16:04:24.340+0000] {processor.py:161} INFO - Started process (PID=7925) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:24.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:04:24.343+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:24.343+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:24.487+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:24.503+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:24.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:04:24.509+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:24.509+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:04:24.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T16:04:55.084+0000] {processor.py:161} INFO - Started process (PID=7960) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:55.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:04:55.086+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:55.086+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:55.228+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:04:55.241+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:55.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:04:55.246+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:04:55.246+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:04:55.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.178 seconds
+[2025-04-28T16:05:25.786+0000] {processor.py:161} INFO - Started process (PID=7995) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:25.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:05:25.788+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:25.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:25.933+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:25.946+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:25.946+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:05:25.951+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:25.951+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:05:25.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:05:56.583+0000] {processor.py:161} INFO - Started process (PID=8030) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:56.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:05:56.587+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:56.586+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:56.736+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:05:56.750+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:56.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:05:56.756+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:05:56.756+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:05:56.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.190 seconds
+[2025-04-28T16:06:27.366+0000] {processor.py:161} INFO - Started process (PID=8065) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:27.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:06:27.368+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:27.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:27.515+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:27.527+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:27.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:06:27.534+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:27.534+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:06:27.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T16:06:58.139+0000] {processor.py:161} INFO - Started process (PID=8100) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:58.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:06:58.142+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:58.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:58.288+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:06:58.304+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:58.304+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:06:58.310+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:06:58.310+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:06:58.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:07:28.889+0000] {processor.py:161} INFO - Started process (PID=8135) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:28.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:07:28.890+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:28.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:29.033+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:29.047+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:29.047+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:07:29.056+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:29.056+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:07:29.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T16:07:59.617+0000] {processor.py:161} INFO - Started process (PID=8170) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:59.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:07:59.620+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:59.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:59.768+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:07:59.782+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:59.782+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:07:59.788+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:07:59.787+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:07:59.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.187 seconds
+[2025-04-28T16:08:30.349+0000] {processor.py:161} INFO - Started process (PID=8205) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:08:30.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:08:30.351+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:08:30.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:08:30.494+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:08:30.507+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:08:30.507+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:08:30.513+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:08:30.513+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:08:30.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.179 seconds
+[2025-04-28T16:09:01.073+0000] {processor.py:161} INFO - Started process (PID=8240) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:01.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:09:01.076+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:01.075+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:01.222+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:01.238+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:01.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:09:01.245+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:01.245+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:09:01.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.188 seconds
+[2025-04-28T16:09:31.843+0000] {processor.py:161} INFO - Started process (PID=8275) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:31.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:09:31.847+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:31.847+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:31.985+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:09:32.000+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:32.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:09:32.007+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:09:32.006+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:09:32.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.178 seconds
+[2025-04-28T16:10:02.569+0000] {processor.py:161} INFO - Started process (PID=8310) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:02.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:10:02.572+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:02.572+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:02.714+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:02.728+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:02.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:10:02.733+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:02.733+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:10:02.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.180 seconds
+[2025-04-28T16:10:33.300+0000] {processor.py:161} INFO - Started process (PID=8345) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:33.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:10:33.302+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:33.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:33.442+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:10:33.455+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:33.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:10:33.461+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:10:33.461+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:10:33.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.179 seconds
+[2025-04-28T16:11:04.042+0000] {processor.py:161} INFO - Started process (PID=8380) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:04.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:11:04.046+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:04.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:04.189+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:04.202+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:04.202+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:11:04.207+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:04.207+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:11:04.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:11:34.786+0000] {processor.py:161} INFO - Started process (PID=8415) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:34.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:11:34.788+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:34.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:34.926+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:11:34.941+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:34.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:11:34.948+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:11:34.948+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:11:34.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.177 seconds
+[2025-04-28T16:12:05.569+0000] {processor.py:161} INFO - Started process (PID=8450) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:05.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:12:05.571+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:05.571+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:05.718+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:05.732+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:05.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:12:05.738+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:05.738+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:12:05.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.184 seconds
+[2025-04-28T16:12:36.355+0000] {processor.py:161} INFO - Started process (PID=8485) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:36.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:12:36.360+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:36.359+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:36.506+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:12:36.520+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:36.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:12:36.526+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:12:36.526+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:12:36.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:13:07.141+0000] {processor.py:161} INFO - Started process (PID=8520) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:07.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:13:07.143+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:07.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:07.287+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:07.301+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:07.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:13:07.310+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:07.310+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:13:07.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:13:37.935+0000] {processor.py:161} INFO - Started process (PID=8555) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:37.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:13:37.936+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:37.936+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:38.076+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:13:38.090+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:38.089+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:13:38.095+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:13:38.095+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:13:38.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.177 seconds
+[2025-04-28T16:14:08.745+0000] {processor.py:161} INFO - Started process (PID=8590) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:08.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:14:08.748+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:08.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:08.889+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:08.902+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:08.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:14:08.907+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:08.907+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:14:08.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.179 seconds
+[2025-04-28T16:14:39.508+0000] {processor.py:161} INFO - Started process (PID=8625) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:39.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:14:39.510+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:39.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:39.654+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:14:39.669+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:39.669+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:14:39.677+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:14:39.677+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:14:39.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:15:10.257+0000] {processor.py:161} INFO - Started process (PID=8660) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:10.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:15:10.260+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:10.260+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:10.402+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:10.416+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:10.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:15:10.422+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:10.422+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:15:10.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:15:41.043+0000] {processor.py:161} INFO - Started process (PID=8695) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:41.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:15:41.050+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:41.050+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:41.190+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:15:41.207+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:41.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:15:41.212+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:15:41.212+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:15:41.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:16:11.762+0000] {processor.py:161} INFO - Started process (PID=8730) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:11.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:16:11.764+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:11.764+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:11.904+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:11.919+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:11.919+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:16:11.930+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:11.930+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:16:11.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T16:16:42.449+0000] {processor.py:161} INFO - Started process (PID=8765) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:42.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:16:42.452+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:42.452+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:42.595+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:16:42.609+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:42.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:16:42.615+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:16:42.615+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:16:42.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.181 seconds
+[2025-04-28T16:17:13.148+0000] {processor.py:161} INFO - Started process (PID=8800) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:13.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:17:13.151+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:13.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:13.294+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:13.309+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:13.308+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:17:13.314+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:13.314+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:17:13.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:17:43.861+0000] {processor.py:161} INFO - Started process (PID=8835) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:43.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:17:43.863+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:43.863+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:44.005+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:17:44.021+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:44.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:17:44.027+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:17:44.027+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:17:44.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:18:14.601+0000] {processor.py:161} INFO - Started process (PID=8870) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:14.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:18:14.603+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:14.602+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:14.750+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:14.765+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:14.764+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:18:14.770+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:14.770+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:18:14.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.185 seconds
+[2025-04-28T16:18:45.342+0000] {processor.py:161} INFO - Started process (PID=8905) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:45.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:18:45.346+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:45.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:45.493+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:18:45.508+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:45.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:18:45.514+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:18:45.514+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:18:45.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.190 seconds
+[2025-04-28T16:19:16.083+0000] {processor.py:161} INFO - Started process (PID=8940) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:16.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:19:16.084+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:16.084+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:16.227+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:16.240+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:16.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:19:16.246+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:16.246+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:19:16.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T16:19:46.908+0000] {processor.py:161} INFO - Started process (PID=8975) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:46.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:19:46.913+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:46.913+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:47.061+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:19:47.074+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:47.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:19:47.080+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:19:47.080+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:19:47.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.189 seconds
+[2025-04-28T16:20:17.698+0000] {processor.py:161} INFO - Started process (PID=9010) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:17.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:20:17.701+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:17.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:17.853+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:17.870+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:17.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:20:17.878+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:17.878+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:20:17.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.196 seconds
+[2025-04-28T16:20:48.469+0000] {processor.py:161} INFO - Started process (PID=9045) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:48.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:20:48.476+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:48.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:48.618+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:20:48.631+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:48.631+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:20:48.637+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:20:48.637+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:20:48.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.183 seconds
+[2025-04-28T16:21:19.188+0000] {processor.py:161} INFO - Started process (PID=9080) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:19.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:21:19.192+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:19.192+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:19.339+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:19.352+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:19.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:21:19.361+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:19.361+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:21:19.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.188 seconds
+[2025-04-28T16:21:49.981+0000] {processor.py:161} INFO - Started process (PID=9115) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:49.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:21:49.983+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:49.982+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:50.130+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:21:50.145+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:50.145+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:21:50.153+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:21:50.153+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:21:50.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.187 seconds
+[2025-04-28T16:22:20.747+0000] {processor.py:161} INFO - Started process (PID=9150) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:20.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:22:20.750+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:20.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:20.891+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:20.908+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:20.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:22:20.913+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:20.913+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:22:20.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.181 seconds
+[2025-04-28T16:22:51.460+0000] {processor.py:161} INFO - Started process (PID=9185) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:51.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:22:51.461+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:51.461+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:51.604+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:22:51.620+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:51.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:22:51.627+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:22:51.627+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:22:51.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.182 seconds
+[2025-04-28T16:23:22.200+0000] {processor.py:161} INFO - Started process (PID=9220) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:22.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:23:22.205+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:22.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:22.341+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:22.354+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:22.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:23:22.360+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:22.360+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:23:22.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.174 seconds
+[2025-04-28T16:23:52.958+0000] {processor.py:161} INFO - Started process (PID=9255) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:52.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:23:52.959+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:52.959+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:53.114+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:23:53.130+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:53.130+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:23:53.139+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:23:53.139+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:23:53.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.197 seconds
+[2025-04-28T16:24:23.759+0000] {processor.py:161} INFO - Started process (PID=9290) to work on /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:24:23.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_gold_tables_from_parquet.py for tasks to queue
+[2025-04-28T16:24:23.762+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:24:23.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:24:23.902+0000] {processor.py:840} INFO - DAG(s) 'create_gold_tables_and_insert_data' retrieved from /opt/airflow/dags/create_gold_tables_from_parquet.py
+[2025-04-28T16:24:23.918+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:24:23.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:24:23.925+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:24:23.924+0000] {dag.py:3954} INFO - Setting next_dagrun for create_gold_tables_and_insert_data to None, run_after=None
+[2025-04-28T16:24:23.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_gold_tables_from_parquet.py took 0.181 seconds

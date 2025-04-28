@@ -150,41 +150,18 @@ Proper partition management ensures scalability and cost optimization.
 - Coordinates the execution of all the above DAGs sequentially.
 - Ensures that each step completes before triggering the next.
 
----
-
-## 📈 Best Practices and Notes
-
-- **Partition Management:**
-  - Always monitor partition sizes.
-  - Avoid too many small files; prefer batch consolidation when necessary.
-  - Ensure partition pruning when querying to optimize performance.
-
-- **Airflow Monitoring:**
-  - Monitor task durations and failures in the Airflow UI.
-  - Implement SLA misses alerts if needed for production.
-
-- **Data Validation:**
-  - Always validate extracted and transformed data.
-  - Implement checksums or row counts if critical.
-
-- **Schema Evolution:**
-  - Be cautious if schemas change. Current DAGs expect static schema.
-  - Future enhancement: support dynamic schema evolution.
-
----
-
 
 # Project Development Report
-
- 
 
 ## Creation Process
 
 I adopted the assumption that I did not have direct access to the `sample_dataset` data, considering that, in an ideal scenario, it would already be stored in a database.
 
-Since the task required building an ETL process, I planned a pipeline focused on extracting data from the provided database.
+Since the task required building an ETL process, I planned a pipeline focused on extracting data from the provided database. transform data with python  and re-upload the processed data as if we were uploading it to the cloud
 
----
+For the transformation processes I used the **Pandas** framework because it is easier to execute locally. However, these ETL processes could be done in **PySpark**
+
+
 
 ## Extraction
 
@@ -194,15 +171,13 @@ In a cloud environment, alternative orchestration strategies could be used. On A
 
 For this project, a DAG (`export_postgres_tables_to_parquet`) was created to perform the data extraction. In a streaming scenario, tools like AWS Kinesis could be incorporated to continuously ingest data into a landing zone, such as S3 or another data lake.
 
----
+
 
 ## Exploratory Data Analysis (EDA)
 
 The notebook `exploratory analysis.ipynb` reads the files from the landing zone extracted previously. It documents the process of getting familiar with the datasets, inspecting data structure, granularity, information completeness, and identifying potential errors.
 
 Following the EDA, I developed the entire transformation strategy and outlined the analyses required. I decided to keep the notebook draft as evidence of the exploratory work.
-
----
 
 ## Transformation
 
@@ -216,8 +191,6 @@ Finally, the DAG (`create_gold_tables_from_parquet`) was implemented to create *
 
 In a larger or more complex environment, it would be preferable to split this final transformation into multiple DAGs (one per table), enabling more granular feature engineering and maintainability.
 
----
-
 ## Loading
 
 The DAG (`orchestrate_full_pipeline`) coordinates the final loading stage, creating the **gold schema** within the same database initially provided and inserting the fully processed tables.
@@ -227,8 +200,6 @@ These gold tables are production-ready and could serve as data sources for:
 - Business Intelligence tools (e.g., Power BI)
 - Analytical applications
 - Machine Learning models
-
----
 
 # Analytics
 
@@ -437,3 +408,10 @@ The use of AI tools significantly enhanced development efficiency, ensured clean
 - **GitHub:** [github.com/joaovitorclark](https://github.com/joaovitorclark)
 - **LinkedIn:** [linkedin.com/in/joaovitorclark](https://www.linkedin.com/in/joaovitorclark/)
 - **Date:** 2025-04-28
+
+# 📷 Screenshots
+#### Triger DAG with a pipeline on airflow
+![trigger_pipeline_airflow](trigger_pipeline_airflow.png)
+
+#### Gold Schema DB Running
+![Gold Schema DB Running](gold_schema_db_running.png)
