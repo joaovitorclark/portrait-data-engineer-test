@@ -4783,3 +4783,20 @@
 [2025-04-28T16:54:38.369+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:54:38.369+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T16:54:38.374+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:54:38.374+0000] {dag.py:3954} INFO - Setting next_dagrun for move_landing_to_bronze_partitioned to None, run_after=None
 [2025-04-28T16:54:38.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_landing_to_bronze_partitioned.py took 0.165 seconds
+[2025-04-28T16:55:09.043+0000] {processor.py:161} INFO - Started process (PID=10967) to work on /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:09.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_landing_to_bronze_partitioned.py for tasks to queue
+[2025-04-28T16:55:09.049+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:09.049+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:09.196+0000] {processor.py:840} INFO - DAG(s) 'move_landing_to_bronze_partitioned' retrieved from /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:09.209+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:09.209+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:55:09.214+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:09.214+0000] {dag.py:3954} INFO - Setting next_dagrun for move_landing_to_bronze_partitioned to None, run_after=None
+[2025-04-28T16:55:09.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_landing_to_bronze_partitioned.py took 0.184 seconds
+[2025-04-28T16:55:39.852+0000] {processor.py:161} INFO - Started process (PID=11002) to work on /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:39.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_landing_to_bronze_partitioned.py for tasks to queue
+[2025-04-28T16:55:39.853+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:39.853+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:39.990+0000] {processor.py:840} INFO - DAG(s) 'move_landing_to_bronze_partitioned' retrieved from /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:55:40.002+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:40.002+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:55:40.008+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:40.008+0000] {dag.py:3954} INFO - Setting next_dagrun for move_landing_to_bronze_partitioned to None, run_after=None
+[2025-04-28T16:55:40.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_landing_to_bronze_partitioned.py took 0.167 seconds
+[2025-04-28T16:56:10.688+0000] {processor.py:161} INFO - Started process (PID=11037) to work on /opt/airflow/dags/move_landing_to_bronze_partitioned.py
+[2025-04-28T16:56:10.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_landing_to_bronze_partitioned.py for tasks to queue
+[2025-04-28T16:56:10.690+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:56:10.690+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_landing_to_bronze_partitioned.py

@@ -4643,3 +4643,24 @@
 [2025-04-28T16:54:38.183+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:54:38.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T16:54:38.189+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:54:38.189+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
 [2025-04-28T16:54:38.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.182 seconds
+[2025-04-28T16:55:08.838+0000] {processor.py:161} INFO - Started process (PID=10955) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:08.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T16:55:08.840+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:08.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:08.987+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:09.006+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:09.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:55:09.012+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:09.012+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T16:55:09.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.189 seconds
+[2025-04-28T16:55:39.657+0000] {processor.py:161} INFO - Started process (PID=10990) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:39.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T16:55:39.659+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:39.659+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:39.800+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:55:39.815+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:39.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:55:39.821+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:55:39.821+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T16:55:39.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.177 seconds
+[2025-04-28T16:56:10.477+0000] {processor.py:161} INFO - Started process (PID=11025) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:56:10.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T16:56:10.483+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:56:10.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:56:10.627+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T16:56:10.643+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:56:10.642+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T16:56:10.649+0000] {logging_mixin.py:188} INFO - [2025-04-28T16:56:10.649+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T16:56:10.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.187 seconds
