@@ -3825,3 +3825,38 @@
 [2025-04-28T15:41:21.275+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:21.274+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T15:41:21.280+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:21.280+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
 [2025-04-28T15:41:21.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.201 seconds
+[2025-04-28T15:41:51.960+0000] {processor.py:161} INFO - Started process (PID=6400) to work on /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:41:51.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/export_tables_to_parquet.py for tasks to queue
+[2025-04-28T15:41:51.962+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:51.962+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:41:52.106+0000] {processor.py:840} INFO - DAG(s) 'export_postgres_tables_to_parquet' retrieved from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:41:52.122+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:52.122+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:41:52.129+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:52.128+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
+[2025-04-28T15:41:52.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.184 seconds
+[2025-04-28T15:42:22.669+0000] {processor.py:161} INFO - Started process (PID=6435) to work on /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:22.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/export_tables_to_parquet.py for tasks to queue
+[2025-04-28T15:42:22.672+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:22.672+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:22.829+0000] {processor.py:840} INFO - DAG(s) 'export_postgres_tables_to_parquet' retrieved from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:22.842+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:22.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:22.848+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:22.848+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
+[2025-04-28T15:42:22.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.197 seconds
+[2025-04-28T15:42:53.464+0000] {processor.py:161} INFO - Started process (PID=6470) to work on /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:53.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/export_tables_to_parquet.py for tasks to queue
+[2025-04-28T15:42:53.468+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:53.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:53.618+0000] {processor.py:840} INFO - DAG(s) 'export_postgres_tables_to_parquet' retrieved from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:42:53.633+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:53.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:53.639+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:53.639+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
+[2025-04-28T15:42:53.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.194 seconds
+[2025-04-28T15:43:24.140+0000] {processor.py:161} INFO - Started process (PID=6505) to work on /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:24.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/export_tables_to_parquet.py for tasks to queue
+[2025-04-28T15:43:24.142+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:24.142+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:24.291+0000] {processor.py:840} INFO - DAG(s) 'export_postgres_tables_to_parquet' retrieved from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:24.305+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:24.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:24.312+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:24.312+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
+[2025-04-28T15:43:24.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.187 seconds
+[2025-04-28T15:43:54.893+0000] {processor.py:161} INFO - Started process (PID=6540) to work on /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:54.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/export_tables_to_parquet.py for tasks to queue
+[2025-04-28T15:43:54.897+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:54.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:55.044+0000] {processor.py:840} INFO - DAG(s) 'export_postgres_tables_to_parquet' retrieved from /opt/airflow/dags/export_tables_to_parquet.py
+[2025-04-28T15:43:55.058+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:55.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:55.064+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:55.064+0000] {dag.py:3954} INFO - Setting next_dagrun for export_postgres_tables_to_parquet to None, run_after=None
+[2025-04-28T15:43:55.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/export_tables_to_parquet.py took 0.193 seconds

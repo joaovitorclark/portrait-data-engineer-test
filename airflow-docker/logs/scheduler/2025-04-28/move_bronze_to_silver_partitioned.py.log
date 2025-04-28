@@ -3733,3 +3733,38 @@
 [2025-04-28T15:41:20.240+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:20.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T15:41:20.246+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:20.246+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
 [2025-04-28T15:41:20.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.182 seconds
+[2025-04-28T15:41:50.938+0000] {processor.py:161} INFO - Started process (PID=6394) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:41:50.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T15:41:50.940+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:50.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:41:51.072+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:41:51.085+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:51.085+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:41:51.090+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:51.090+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T15:41:51.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.162 seconds
+[2025-04-28T15:42:21.637+0000] {processor.py:161} INFO - Started process (PID=6429) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:21.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T15:42:21.638+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:21.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:21.773+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:21.786+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:21.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:21.795+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:21.795+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T15:42:21.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.169 seconds
+[2025-04-28T15:42:52.435+0000] {processor.py:161} INFO - Started process (PID=6464) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:52.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T15:42:52.436+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:52.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:52.568+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:42:52.582+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:52.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:52.588+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:52.588+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T15:42:52.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.165 seconds
+[2025-04-28T15:43:23.116+0000] {processor.py:161} INFO - Started process (PID=6499) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:23.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T15:43:23.117+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:23.117+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:23.252+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:23.264+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:23.264+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:23.270+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:23.269+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T15:43:23.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.165 seconds
+[2025-04-28T15:43:53.862+0000] {processor.py:161} INFO - Started process (PID=6534) to work on /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:53.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/move_bronze_to_silver_partitioned.py for tasks to queue
+[2025-04-28T15:43:53.863+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:53.863+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:53.995+0000] {processor.py:840} INFO - DAG(s) 'move_bronze_to_silver_partitioned' retrieved from /opt/airflow/dags/move_bronze_to_silver_partitioned.py
+[2025-04-28T15:43:54.008+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:54.007+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:54.013+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:54.013+0000] {dag.py:3954} INFO - Setting next_dagrun for move_bronze_to_silver_partitioned to None, run_after=None
+[2025-04-28T15:43:54.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/move_bronze_to_silver_partitioned.py took 0.162 seconds

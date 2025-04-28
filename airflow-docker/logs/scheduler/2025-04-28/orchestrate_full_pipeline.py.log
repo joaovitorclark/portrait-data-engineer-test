@@ -3426,3 +3426,45 @@ DETAIL:  Key (dag_id)=(orchestrate_full_pipeline) already exists.
 [2025-04-28T15:41:02.715+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:02.715+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T15:41:02.721+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:02.721+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
 [2025-04-28T15:41:02.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.053 seconds
+[2025-04-28T15:41:33.491+0000] {processor.py:161} INFO - Started process (PID=6377) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:41:33.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:41:33.494+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:33.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:41:33.508+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:41:33.526+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:33.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:41:33.532+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:41:33.532+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:41:33.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.055 seconds
+[2025-04-28T15:42:04.266+0000] {processor.py:161} INFO - Started process (PID=6412) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:04.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:42:04.269+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:04.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:04.281+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:04.296+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:04.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:04.303+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:04.303+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:42:04.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.053 seconds
+[2025-04-28T15:42:35.053+0000] {processor.py:161} INFO - Started process (PID=6447) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:35.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:42:35.056+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:35.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:35.069+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:42:35.087+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:35.087+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:42:35.093+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:42:35.093+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:42:35.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.055 seconds
+[2025-04-28T15:43:05.718+0000] {processor.py:161} INFO - Started process (PID=6482) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:05.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:43:05.720+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:05.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:05.729+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:05.744+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:05.744+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:05.752+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:05.752+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:43:05.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.049 seconds
+[2025-04-28T15:43:36.459+0000] {processor.py:161} INFO - Started process (PID=6517) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:36.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:43:36.462+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:36.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:36.476+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:43:36.498+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:36.498+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:43:36.504+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:43:36.504+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:43:36.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.059 seconds
+[2025-04-28T15:44:07.256+0000] {processor.py:161} INFO - Started process (PID=6552) to work on /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:44:07.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/orchestrate_full_pipeline.py for tasks to queue
+[2025-04-28T15:44:07.258+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:07.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:44:07.268+0000] {processor.py:840} INFO - DAG(s) 'orchestrate_full_pipeline' retrieved from /opt/airflow/dags/orchestrate_full_pipeline.py
+[2025-04-28T15:44:07.284+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:07.284+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T15:44:07.290+0000] {logging_mixin.py:188} INFO - [2025-04-28T15:44:07.290+0000] {dag.py:3954} INFO - Setting next_dagrun for orchestrate_full_pipeline to None, run_after=None
+[2025-04-28T15:44:07.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/orchestrate_full_pipeline.py took 0.049 seconds
