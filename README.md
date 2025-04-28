@@ -1,6 +1,6 @@
 # 📄 Project: Data Pipeline with Airflow, PostgreSQL, and Medallion Architecture
 
-## 📦 Project Structure
+## Project Structure
 
 ```plaintext
  portrait-data-engineer-test/
@@ -48,13 +48,13 @@
 
 ```
 
-## 💡 Technology Stack
+##  Technology Stack
 - **Apache Airflow**
 - **PostgreSQL**
 - **Python 3.9+**
 - **Docker / Docker Compose**
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Step 1: Start PostgreSQL Container
 ```bash
@@ -90,7 +90,7 @@ Trigger the `orchestrate_full_pipeline` DAG in the Airflow UI.
 
 ---
 
-## 📖 About Medallion Architecture
+##  About Medallion Architecture
 
 This project follows the **Medallion Architecture**:
 
@@ -112,7 +112,7 @@ Proper partition management ensures scalability and cost optimization.
 
 ---
 
-## 🔗 DAGs and Their Responsibilities
+## DAGs and Their Responsibilities
 
 ### 1. `export_postgres_tables_to_parquet`
 - Connects to the PostgreSQL database.
@@ -368,7 +368,7 @@ GROUP BY p.patient_id;
 -- Reported Pearson correlation: -0.13
 ```
 
-# 📋 Conclusion
+#  Conclusion
 
 This project successfully demonstrates the end-to-end development of a data pipeline applying Medallion Architecture principles, leveraging modern tools such as Apache Airflow, PostgreSQL, Python, and Docker.
 
@@ -386,7 +386,7 @@ This project serves as a robust foundation for more complex data engineering sol
 
 
 
-# 🤖 AI Assistance Report
+#  AI Assistance Report
 
 Continuous usage of **GitHub Copilot** was adopted throughout the project development.
 
@@ -400,7 +400,7 @@ Main uses of **ChatGPT** included:
 The use of AI tools significantly enhanced development efficiency, ensured cleaner code organization, and improved overall documentation quality.
 
 
-# 📞 Contact
+# Contact
 
 - **Name:** João Vitor Clark
 - **Phone:** +55 11 99100-4202
@@ -409,7 +409,7 @@ The use of AI tools significantly enhanced development efficiency, ensured clean
 - **LinkedIn:** [linkedin.com/in/joaovitorclark](https://www.linkedin.com/in/joaovitorclark/)
 - **Date:** 2025-04-28
 
-# 📷 Screenshots
+# Screenshots
 #### Triger DAG with a pipeline on airflow
 ![trigger_pipeline_airflow](trigger_pipeline_airflow.png)
 

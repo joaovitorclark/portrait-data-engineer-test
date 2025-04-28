@@ -9044,3 +9044,600 @@ File Path                                                PID    Runtime      # D
 /opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:24:24
 /opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:24:06
 ================================================================================
+[2025-04-28T16:25:07.192+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.22s           2025-04-28T16:24:54
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:24:56
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:24:54
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:24:56
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:24:54
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:24:37
+================================================================================
+[2025-04-28T16:25:37.937+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:25:26
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:25:25
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:25:26
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:25:25
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:25:25
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:25:08
+================================================================================
+[2025-04-28T16:26:08.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:25:57
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:25:57
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:25:56
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:25:56
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:25:56
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:25:39
+================================================================================
+[2025-04-28T16:26:39.462+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:26:28
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:26:28
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:26:27
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:26:27
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:26:27
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:26:09
+================================================================================
+[2025-04-28T16:26:48.570+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:26:48.585+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:27:10.222+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:26:59
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:26:57
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:26:59
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:26:57
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:26:58
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:26:40
+================================================================================
+[2025-04-28T16:27:40.988+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.21s           2025-04-28T16:27:28
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:27:29
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:27:28
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:27:29
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:27:28
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:27:11
+================================================================================
+[2025-04-28T16:28:11.802+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:27:59
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.21s           2025-04-28T16:27:59
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:28:00
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.19s           2025-04-28T16:28:00
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:27:59
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:27:42
+================================================================================
+[2025-04-28T16:28:42.609+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:28:31
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:28:30
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:28:30
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.19s           2025-04-28T16:28:31
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:28:30
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:28:12
+================================================================================
+[2025-04-28T16:29:13.371+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:29:02
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:29:02
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:29:00
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:29:01
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:29:01
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:28:43
+================================================================================
+[2025-04-28T16:29:44.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:29:31
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:29:33
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:29:33
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:29:31
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:29:31
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:29:14
+================================================================================
+[2025-04-28T16:30:14.916+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:30:03
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.19s           2025-04-28T16:30:03
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.19s           2025-04-28T16:30:02
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:30:02
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:30:02
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:29:45
+================================================================================
+[2025-04-28T16:30:45.645+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:30:34
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:30:33
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:30:34
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:30:33
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:30:33
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:30:16
+================================================================================
+[2025-04-28T16:31:16.368+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:31:04
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:31:05
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:31:04
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:31:05
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:31:04
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:30:46
+================================================================================
+[2025-04-28T16:31:47.172+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:31:36
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:31:34
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:31:36
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:31:34
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:31:34
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:31:17
+================================================================================
+[2025-04-28T16:31:49.210+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:31:49.225+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:32:17.942+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:32:06
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:32:05
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:32:05
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:32:06
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:32:05
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:31:48
+================================================================================
+[2025-04-28T16:32:48.665+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:32:36
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:32:37
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:32:36
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:32:37
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:32:36
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:32:19
+================================================================================
+[2025-04-28T16:33:19.468+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:33:08
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:33:07
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:33:08
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:33:07
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:33:07
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:32:49
+================================================================================
+[2025-04-28T16:33:50.233+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:33:37
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:33:39
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:33:37
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:33:39
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:33:38
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:33:20
+================================================================================
+[2025-04-28T16:34:21.033+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:34:08
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:34:09
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:34:08
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.19s           2025-04-28T16:34:09
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:34:08
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:33:51
+================================================================================
+[2025-04-28T16:34:51.817+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:34:40
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:34:39
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:34:40
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:34:39
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:34:39
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.08s           2025-04-28T16:34:22
+================================================================================
+[2025-04-28T16:35:22.541+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:35:11
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:35:10
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:35:11
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:35:10
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:35:10
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:34:52
+================================================================================
+[2025-04-28T16:35:53.332+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:35:42
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:35:40
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:35:42
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:35:40
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:35:41
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:35:23
+================================================================================
+[2025-04-28T16:36:24.115+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:36:12
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:36:11
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:36:11
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:36:12
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:36:11
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:35:54
+================================================================================
+[2025-04-28T16:36:49.923+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:36:49.932+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:36:55.001+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:36:42
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.21s           2025-04-28T16:36:42
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:36:43
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:36:43
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:36:42
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:36:25
+================================================================================
+[2025-04-28T16:37:25.803+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:37:13
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:37:13
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:37:14
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.19s           2025-04-28T16:37:14
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:37:13
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:36:56
+================================================================================
+[2025-04-28T16:37:56.737+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.22s           2025-04-28T16:37:44
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:37:45
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:37:45
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:37:44
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:37:44
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:37:26
+================================================================================
+[2025-04-28T16:38:27.666+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:38:16
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:38:16
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:38:15
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:38:15
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:38:15
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:37:57
+================================================================================
+[2025-04-28T16:38:58.601+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:38:47
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:38:47
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:38:46
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:38:46
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:38:46
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:38:28
+================================================================================
+[2025-04-28T16:39:29.504+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:39:18
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:39:17
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.21s           2025-04-28T16:39:17
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:39:18
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:39:17
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:38:59
+================================================================================
+[2025-04-28T16:40:00.349+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:39:49
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:39:47
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:39:49
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:39:47
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:39:48
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:39:30
+================================================================================
+[2025-04-28T16:40:31.215+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:40:20
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:40:18
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:40:20
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:40:18
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:40:19
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:40:01
+================================================================================
+[2025-04-28T16:41:01.921+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.22s           2025-04-28T16:40:50
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:40:50
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:40:49
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:40:49
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.18s           2025-04-28T16:40:49
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:40:32
+================================================================================
+[2025-04-28T16:41:32.789+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:41:20
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:41:21
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.21s           2025-04-28T16:41:21
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:41:20
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:41:20
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.08s           2025-04-28T16:41:03
+================================================================================
+[2025-04-28T16:41:49.999+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:41:50.013+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:42:03.618+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.21s           2025-04-28T16:41:52
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.20s           2025-04-28T16:41:52
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:41:51
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:41:51
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.17s           2025-04-28T16:41:51
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.08s           2025-04-28T16:41:33
+================================================================================
+[2025-04-28T16:43:01.818+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:42:46
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:42:46
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:42:46
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.18s           2025-04-28T16:42:46
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.17s           2025-04-28T16:42:46
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:42:46
+================================================================================
+[2025-04-28T16:46:33.116+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:46:16
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:46:16
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:46:16
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:46:16
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:46:17
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:46:16
+================================================================================
+[2025-04-28T16:46:50.791+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:46:50.801+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:47:03.194+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:46:47
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:46:47
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:46:47
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.18s           2025-04-28T16:46:47
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:46:47
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.08s           2025-04-28T16:46:47
+================================================================================
+[2025-04-28T16:48:50.736+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.25s           2025-04-28T16:48:34
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.24s           2025-04-28T16:48:34
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.24s           2025-04-28T16:48:34
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.24s           2025-04-28T16:48:34
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.23s           2025-04-28T16:48:34
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:48:34
+================================================================================
+[2025-04-28T16:49:37.491+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:49:19
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:49:20
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:49:20
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.18s           2025-04-28T16:49:20
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:49:20
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:49:19
+================================================================================
+[2025-04-28T16:50:08.391+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:49:50
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:49:51
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:49:51
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:49:50
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:49:51
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.08s           2025-04-28T16:49:50
+================================================================================
+[2025-04-28T16:51:05.132+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:50:45
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:50:45
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:50:45
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:50:45
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.17s           2025-04-28T16:50:45
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:50:45
+================================================================================
+[2025-04-28T16:51:35.207+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.34s           2025-04-28T16:51:16
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.26s           2025-04-28T16:51:16
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.21s           2025-04-28T16:51:16
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.21s           2025-04-28T16:51:16
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:51:16
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:51:17
+================================================================================
+[2025-04-28T16:53:05.831+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-28T16:53:05.843+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2025-04-28T16:53:25.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:53:06
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.19s           2025-04-28T16:53:06
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.18s           2025-04-28T16:53:06
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.18s           2025-04-28T16:53:06
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:53:06
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.07s           2025-04-28T16:53:05
+================================================================================
+[2025-04-28T16:53:56.841+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.21s           2025-04-28T16:53:36
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.20s           2025-04-28T16:53:36
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.20s           2025-04-28T16:53:36
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.20s           2025-04-28T16:53:36
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:53:36
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:53:36
+================================================================================
+[2025-04-28T16:54:27.643+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/move_bronze_to_silver_partitioned.py                            1           0  0.20s           2025-04-28T16:54:07
+/opt/airflow/dags/silver_to_gold_feature_engineering.py                           1           0  0.20s           2025-04-28T16:54:07
+/opt/airflow/dags/create_gold_tables_from_parquet.py                              1           0  0.19s           2025-04-28T16:54:07
+/opt/airflow/dags/export_tables_to_parquet.py                                     1           0  0.19s           2025-04-28T16:54:07
+/opt/airflow/dags/move_landing_to_bronze_partitioned.py                           1           0  0.18s           2025-04-28T16:54:07
+/opt/airflow/dags/orchestrate_full_pipeline.py                                    1           0  0.06s           2025-04-28T16:54:07
+================================================================================
