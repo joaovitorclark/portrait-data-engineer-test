@@ -1,0 +1,6 @@
+ postgres:
+  host: host.docker.internal
+  port: 5432
+  database: healthcare
+  username: postgres
+  password: postgres
