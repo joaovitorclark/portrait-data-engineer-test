@@ -4,23 +4,22 @@ from datetime import datetime
 import pandas as pd
 import os
 import re
-import psycopg2
 from sqlalchemy import create_engine, text
 
-def create_gold_tables():
+def create_gold_tables_and_insert_data():
     # Paths
     current_path = '/opt/airflow/app'
     gold_path = os.path.join(current_path, 'bucket', 'gold')
 
     # Banco de dados
     config = {
-        'host': 'host.docker.internal',  # correto para containers docker no Mac/Windows
+        'host': 'host.docker.internal',
         'port': '5432',
         'database': 'healthcare',
         'username': 'postgres',
         'password': 'postgres'
     }
-    # Monta a connection string
+
     connection_string = (
         f"postgresql+psycopg2://{config['username']}:{config['password']}@"
         f"{config['host']}:{config['port']}/{config['database']}"
@@ -38,7 +37,7 @@ def create_gold_tables():
             return None
         partitions.sort()
         latest_partition = partitions[-1]
-        return latest_partition[-1]  # retorna o caminho da última partição
+        return latest_partition[-1]
 
     gold_partition = find_latest_partition(gold_path)
     if not gold_partition:
@@ -46,7 +45,7 @@ def create_gold_tables():
 
     print(f"Lendo arquivos da gold: {gold_partition}")
 
-    # Tabelas para criar
+    # Lê os arquivos Parquet
     tables = {
         'appointments': pd.read_parquet(os.path.join(gold_partition, "appointments.parquet")),
         'patients': pd.read_parquet(os.path.join(gold_partition, "patients.parquet")),
@@ -54,7 +53,7 @@ def create_gold_tables():
         'providers': pd.read_parquet(os.path.join(gold_partition, "providers.parquet")),
     }
 
-    # Cria o schema gold se não existir
+    # Garante que o schema gold existe
     with engine.connect() as conn:
         conn.execute(text('CREATE SCHEMA IF NOT EXISTS gold;'))
         print("Schema 'gold' garantido.")
@@ -72,7 +71,7 @@ def create_gold_tables():
         else:
             return 'TEXT'
 
-    # Cria tabelas se não existirem
+    # Cria tabelas e insere dados
     for table_name, df in tables.items():
         columns = []
         for col, dtype in df.dtypes.items():
@@ -90,16 +89,20 @@ def create_gold_tables():
             conn.execute(text(create_table_sql))
             print(f"Tabela gold.{table_name} garantida.")
 
+        # Insere os dados
+        df.to_sql(name=table_name, con=engine, schema='gold', if_exists='append', index=False)
+        print(f"Dados inseridos na tabela gold.{table_name} com sucesso.")
+
 # Define a DAG
 with DAG(
-    dag_id='create_gold_tables_from_parquet',
+    dag_id='create_gold_tables_and_insert_data',
     start_date=datetime(2024, 1, 1),
     schedule_interval=None,
     catchup=False,
-    tags=['gold', 'create-tables'],
+    tags=['gold', 'create-tables', 'insert-data'],
 ) as dag:
 
-    create_tables_task = PythonOperator(
-        task_id='create_gold_tables',
-        python_callable=create_gold_tables
+    create_and_insert_task = PythonOperator(
+        task_id='create_gold_tables_and_insert_data',
+        python_callable=create_gold_tables_and_insert_data
     )

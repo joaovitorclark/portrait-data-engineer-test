@@ -35,8 +35,8 @@ with DAG(
     )
 
     trigger_create_gold_tables = TriggerDagRunOperator(
-        task_id="trigger_create_gold_tables",
-        trigger_dag_id="create_gold_tables_from_parquet",
+        task_id="create_gold_tables_and_insert_data",
+        trigger_dag_id="create_gold_tables_and_insert_data",
     )
 
     end = EmptyOperator(task_id="end_pipeline")

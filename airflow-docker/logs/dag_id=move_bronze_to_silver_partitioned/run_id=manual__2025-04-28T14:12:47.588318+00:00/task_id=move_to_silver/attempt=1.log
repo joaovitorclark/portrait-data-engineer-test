@@ -1,0 +1,23 @@
+[2025-04-28T14:12:48.199+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-28T14:12:48.213+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: move_bronze_to_silver_partitioned.move_to_silver manual__2025-04-28T14:12:47.588318+00:00 [queued]>
+[2025-04-28T14:12:48.216+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: move_bronze_to_silver_partitioned.move_to_silver manual__2025-04-28T14:12:47.588318+00:00 [queued]>
+[2025-04-28T14:12:48.216+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-04-28T14:12:48.222+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): move_to_silver> on 2025-04-28 14:12:47.588318+00:00
+[2025-04-28T14:12:48.226+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'move_bronze_to_silver_partitioned', 'move_to_silver', 'manual__2025-04-28T14:12:47.588318+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/move_bronze_to_silver_partitioned.py', '--cfg-path', '/tmp/tmpt54m61pd']
+[2025-04-28T14:12:48.229+0000] {standard_task_runner.py:91} INFO - Job 71: Subtask move_to_silver
+[2025-04-28T14:12:48.228+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=291) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-28T14:12:48.230+0000] {standard_task_runner.py:63} INFO - Started process 296 to run task
+[2025-04-28T14:12:48.254+0000] {task_command.py:426} INFO - Running <TaskInstance: move_bronze_to_silver_partitioned.move_to_silver manual__2025-04-28T14:12:47.588318+00:00 [running]> on host 25cea5d6e0b5
+[2025-04-28T14:12:48.293+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='move_bronze_to_silver_partitioned' AIRFLOW_CTX_TASK_ID='move_to_silver' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T14:12:47.588318+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-28T14:12:47.588318+00:00'
+[2025-04-28T14:12:48.293+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-28T14:12:48.300+0000] {logging_mixin.py:188} INFO - Última partição encontrada: /opt/***/app/bucket/bronze/year=2025/month=04/day=28
+[2025-04-28T14:12:48.324+0000] {logging_mixin.py:188} INFO - Arquivo atualizado apenas updated_at na silver: /opt/***/app/bucket/silver/year=2025/month=04/day=28/patients.parquet
+[2025-04-28T14:12:48.334+0000] {logging_mixin.py:188} INFO - Arquivo atualizado apenas updated_at na silver: /opt/***/app/bucket/silver/year=2025/month=04/day=28/appointments.parquet
+[2025-04-28T14:12:48.342+0000] {logging_mixin.py:188} INFO - Arquivo atualizado apenas updated_at na silver: /opt/***/app/bucket/silver/year=2025/month=04/day=28/prescriptions.parquet
+[2025-04-28T14:12:48.350+0000] {logging_mixin.py:188} INFO - Arquivo atualizado apenas updated_at na silver: /opt/***/app/bucket/silver/year=2025/month=04/day=28/providers.parquet
+[2025-04-28T14:12:48.350+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-28T14:12:48.350+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-28T14:12:48.356+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=move_bronze_to_silver_partitioned, task_id=move_to_silver, execution_date=20250428T141247, start_date=20250428T141248, end_date=20250428T141248
+[2025-04-28T14:12:48.373+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-28T14:12:48.384+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-28T14:12:48.385+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

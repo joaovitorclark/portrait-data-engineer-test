@@ -1,0 +1,117 @@
+[2025-04-28T14:12:50.588+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-28T14:12:50.601+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_gold_tables_and_insert_data.create_gold_tables_and_insert_data manual__2025-04-28T14:12:49.406540+00:00 [queued]>
+[2025-04-28T14:12:50.604+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_gold_tables_and_insert_data.create_gold_tables_and_insert_data manual__2025-04-28T14:12:49.406540+00:00 [queued]>
+[2025-04-28T14:12:50.604+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-04-28T14:12:50.609+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): create_gold_tables_and_insert_data> on 2025-04-28 14:12:49.406540+00:00
+[2025-04-28T14:12:50.613+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'create_gold_tables_and_insert_data', 'create_gold_tables_and_insert_data', 'manual__2025-04-28T14:12:49.406540+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/create_gold_tables_from_parquet.py', '--cfg-path', '/tmp/tmpckpnjcf4']
+[2025-04-28T14:12:50.614+0000] {standard_task_runner.py:91} INFO - Job 74: Subtask create_gold_tables_and_insert_data
+[2025-04-28T14:12:50.614+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=319) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-28T14:12:50.615+0000] {standard_task_runner.py:63} INFO - Started process 321 to run task
+[2025-04-28T14:12:50.639+0000] {task_command.py:426} INFO - Running <TaskInstance: create_gold_tables_and_insert_data.create_gold_tables_and_insert_data manual__2025-04-28T14:12:49.406540+00:00 [running]> on host 25cea5d6e0b5
+[2025-04-28T14:12:50.675+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_gold_tables_and_insert_data' AIRFLOW_CTX_TASK_ID='create_gold_tables_and_insert_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T14:12:49.406540+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-28T14:12:49.406540+00:00'
+[2025-04-28T14:12:50.675+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-28T14:12:50.682+0000] {logging_mixin.py:188} INFO - Lendo arquivos da gold: /opt/***/app/bucket/gold/year=2025/month=04/day=28
+[2025-04-28T14:12:50.714+0000] {logging_mixin.py:188} INFO - Schema 'gold' garantido.
+[2025-04-28T14:12:50.715+0000] {logging_mixin.py:188} INFO - Tabela gold.appointments garantida.
+[2025-04-28T14:12:50.724+0000] {logging_mixin.py:188} INFO - Dados inseridos na tabela gold.appointments com sucesso.
+[2025-04-28T14:12:50.726+0000] {logging_mixin.py:188} INFO - Tabela gold.patients garantida.
+[2025-04-28T14:12:50.730+0000] {logging_mixin.py:188} INFO - Dados inseridos na tabela gold.patients com sucesso.
+[2025-04-28T14:12:50.732+0000] {logging_mixin.py:188} INFO - Tabela gold.prescriptions garantida.
+[2025-04-28T14:12:50.738+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-28T14:12:50.738+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.UndefinedColumn: column "prescription_frequency_days" of relation "prescriptions" does not exist
+LINE 1: ...scription_date, extraction_timestamp, updated_at, prescripti...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/create_gold_tables_from_parquet.py", line 93, in create_gold_tables_and_insert_data
+    df.to_sql(name=table_name, con=engine, schema='gold', if_exists='append', index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1958, in to_sql
+    total_inserted = sql_engine.insert_records(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1507, in insert_records
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1498, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1059, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 951, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "prescription_frequency_days" of relation "prescriptions" does not exist
+LINE 1: ...scription_date, extraction_timestamp, updated_at, prescripti...
+                                                             ^
+
+[SQL: INSERT INTO gold.prescriptions (prescription_id, patient_id, medication_name, prescription_date, extraction_timestamp, updated_at, prescription_frequency_days, avg_prescription_frequency, prescription_repeats, medication_category, prescription_type) VALUES (%(prescription_id)s, %(patient_id)s, %(medication_name)s, %(prescription_date)s, %(extraction_timestamp)s, %(updated_at)s, %(prescription_frequency_days)s, %(avg_prescription_frequency)s, %(prescription_repeats)s, %(medication_category)s, %(prescription_type)s)]
+[parameters: ({'prescription_id': 28, 'patient_id': 1, 'medication_name': 'Amoxicillin', 'prescription_date': datetime.datetime(2023, 3, 26, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 53, 'patient_id': 1, 'medication_name': 'Aspirin', 'prescription_date': datetime.datetime(2023, 3, 12, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 44, 'patient_id': 1, 'medication_name': 'Ibuprofen', 'prescription_date': datetime.datetime(2023, 1, 31, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Pain Relief', 'prescription_type': 'First-time'}, {'prescription_id': 97, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 6, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 121, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 7, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': 1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 122, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 8, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': 1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 26, 'patient_id': 2, 'medication_name': 'Aspirin', 'prescription_date': datetime.datetime(2023, 3, 3, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 13, 'patient_id': 2, 'medication_name': 'Ibuprofen', 'prescription_date': datetime.datetime(2023, 1, 15, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': 41.0, 'prescription_repeats': 2, 'medication_category': 'Pain Relief', 'prescription_type': 'Repeat'}  ... displaying 10 of 128 total bound parameter sets ...  {'prescription_id': 43, 'patient_id': 49, 'medication_name': 'Atorvastatin', 'prescription_date': datetime.datetime(2023, 1, 13, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Heart', 'prescription_type': 'First-time'}, {'prescription_id': 113, 'patient_id': 50, 'medication_name': 'Amoxicillin', 'prescription_date': datetime.datetime(2023, 2, 12, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'})]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2025-04-28T14:12:50.749+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=create_gold_tables_and_insert_data, task_id=create_gold_tables_and_insert_data, execution_date=20250428T141249, start_date=20250428T141250, end_date=20250428T141250
+[2025-04-28T14:12:50.754+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 74 for task create_gold_tables_and_insert_data ((psycopg2.errors.UndefinedColumn) column "prescription_frequency_days" of relation "prescriptions" does not exist
+LINE 1: ...scription_date, extraction_timestamp, updated_at, prescripti...
+                                                             ^
+
+[SQL: INSERT INTO gold.prescriptions (prescription_id, patient_id, medication_name, prescription_date, extraction_timestamp, updated_at, prescription_frequency_days, avg_prescription_frequency, prescription_repeats, medication_category, prescription_type) VALUES (%(prescription_id)s, %(patient_id)s, %(medication_name)s, %(prescription_date)s, %(extraction_timestamp)s, %(updated_at)s, %(prescription_frequency_days)s, %(avg_prescription_frequency)s, %(prescription_repeats)s, %(medication_category)s, %(prescription_type)s)]
+[parameters: ({'prescription_id': 28, 'patient_id': 1, 'medication_name': 'Amoxicillin', 'prescription_date': datetime.datetime(2023, 3, 26, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 53, 'patient_id': 1, 'medication_name': 'Aspirin', 'prescription_date': datetime.datetime(2023, 3, 12, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 44, 'patient_id': 1, 'medication_name': 'Ibuprofen', 'prescription_date': datetime.datetime(2023, 1, 31, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Pain Relief', 'prescription_type': 'First-time'}, {'prescription_id': 97, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 6, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 121, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 7, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': 1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 122, 'patient_id': 1, 'medication_name': 'Metformin', 'prescription_date': datetime.datetime(2023, 3, 8, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': 1, 'avg_prescription_frequency': 1.0, 'prescription_repeats': 3, 'medication_category': 'Diabetes', 'prescription_type': 'Repeat'}, {'prescription_id': 26, 'patient_id': 2, 'medication_name': 'Aspirin', 'prescription_date': datetime.datetime(2023, 3, 3, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'}, {'prescription_id': 13, 'patient_id': 2, 'medication_name': 'Ibuprofen', 'prescription_date': datetime.datetime(2023, 1, 15, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': 41.0, 'prescription_repeats': 2, 'medication_category': 'Pain Relief', 'prescription_type': 'Repeat'}  ... displaying 10 of 128 total bound parameter sets ...  {'prescription_id': 43, 'patient_id': 49, 'medication_name': 'Atorvastatin', 'prescription_date': datetime.datetime(2023, 1, 13, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Heart', 'prescription_type': 'First-time'}, {'prescription_id': 113, 'patient_id': 50, 'medication_name': 'Amoxicillin', 'prescription_date': datetime.datetime(2023, 2, 12, 0, 0), 'extraction_timestamp': datetime.datetime(2025, 4, 28, 1, 17, 49, 722427), 'updated_at': datetime.datetime(2025, 4, 28, 14, 12, 48, 339951), 'prescription_frequency_days': -1, 'avg_prescription_frequency': None, 'prescription_repeats': 1, 'medication_category': 'Other', 'prescription_type': 'First-time'})]
+(Background on this error at: https://sqlalche.me/e/14/f405); 321)
+[2025-04-28T14:12:50.761+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-04-28T14:12:50.771+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-28T14:12:50.771+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

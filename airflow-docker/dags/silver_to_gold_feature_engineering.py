@@ -24,32 +24,23 @@ def silver_to_gold():
 
         partitions.sort()
         latest_partition = partitions[-1]
-        return latest_partition[-1]  # retorna o caminho da última partição
+        return latest_partition[-1]  # return path of latest partition
 
     silver_partition = find_latest_partition(silver_path)
     if not silver_partition:
-        raise Exception("Nenhuma partição encontrada na Silver.")
+        raise Exception("No partition found in Silver.")
 
-    print(f"Lendo arquivos da silver: {silver_partition}")
+    print(f"Reading from silver: {silver_partition}")
 
-    # Lê os arquivos
+    # Read the data
     df_appointments = pd.read_parquet(os.path.join(silver_partition, "appointments.parquet"))
     df_patients = pd.read_parquet(os.path.join(silver_partition, "patients.parquet"))
     df_prescriptions = pd.read_parquet(os.path.join(silver_partition, "prescriptions.parquet"))
     df_providers = pd.read_parquet(os.path.join(silver_partition, "providers.parquet"))
 
-    # Feature Engineering
+    # --- Feature Engineering ---
 
-    # Appointments
-    df_appointments['appointment_date'] = pd.to_datetime(df_appointments['appointment_date'])
-    df_appointments['day_of_week'] = df_appointments['appointment_date'].dt.day_name()
-    df_appointments = df_appointments.sort_values(['patient_id', 'appointment_date'])
-    df_appointments['days_since_last_appointment'] = (
-        df_appointments.groupby('patient_id')['appointment_date']
-        .diff().dt.days.fillna(-1).astype(int)
-    )
-
-    # Patients
+    # a) Patient-level transformations
     df_patients['age_group'] = (
         pd.cut(
             df_patients['age'],
@@ -75,17 +66,27 @@ def silver_to_gold():
     )
     df_patients['patient_type'] = df_patients['patient_type'].cat.add_categories('Unknown').fillna('Unknown')
 
-    # Prescriptions
+    # b) Appointment-level transformations
+    df_appointments['appointment_date'] = pd.to_datetime(df_appointments['appointment_date'])
+    df_appointments['day_of_week'] = df_appointments['appointment_date'].dt.day_name()
+
+    df_appointments = df_appointments.sort_values(['patient_id', 'appointment_date'])
+    df_appointments['days_since_last_appointment'] = (
+        df_appointments.groupby('patient_id')['appointment_date']
+        .diff().dt.days.fillna(-1).astype(int)
+    )
+
+    # c) Prescription-level transformations
     df_prescriptions['prescription_date'] = pd.to_datetime(df_prescriptions['prescription_date'])
     df_prescriptions = df_prescriptions.sort_values(['patient_id', 'medication_name', 'prescription_date'])
 
-    df_prescriptions['prescription_frequency'] = (
+    df_prescriptions['prescription_frequency_days'] = (
         df_prescriptions.groupby(['patient_id', 'medication_name'])['prescription_date']
         .diff().dt.days
     )
 
     df_prescriptions['avg_prescription_frequency'] = (
-        df_prescriptions.groupby(['patient_id', 'medication_name'])['prescription_frequency']
+        df_prescriptions.groupby(['patient_id', 'medication_name'])['prescription_frequency_days']
         .transform('mean').round(1)
     )
 
@@ -94,27 +95,48 @@ def silver_to_gold():
         .transform('count')
     )
 
-    df_prescriptions['prescription_frequency'] = df_prescriptions['prescription_frequency'].fillna(-1).astype(int)
+    df_prescriptions['prescription_frequency_days'] = df_prescriptions['prescription_frequency_days'].fillna(-1).astype(int)
 
-    # Salvando na GOLD
+    # --- Define Medication Category ---
+    medication_category_map = {
+        'Paracetamol': 'Pain Relief',
+        'Ibuprofen': 'Pain Relief',
+        'Metformin': 'Diabetes',
+        'Insulin': 'Diabetes',
+        'Atorvastatin': 'Heart',
+        'Atenolol': 'Heart',
+        'Omeprazole': 'Gastrointestinal',
+        'Losartan': 'Heart',
+        'Albuterol': 'Respiratory',
+        # Default
+    }
+
+    df_prescriptions['medication_category'] = df_prescriptions['medication_name'].map(medication_category_map).fillna('Other')
+
+    # --- Define Prescription Type (First-time vs Repeat) ---
+    df_prescriptions['prescription_type'] = np.where(
+        df_prescriptions['prescription_repeats'] > 1, 'Repeat', 'First-time'
+    )
+
+    # --- Save to Gold Layer ---
     relative_partition = os.path.relpath(silver_partition, silver_path)
     gold_partition = os.path.join(gold_path, relative_partition)
     os.makedirs(gold_partition, exist_ok=True)
 
-    print(f"Salvando na gold: {gold_partition}")
+    print(f"Saving to gold: {gold_partition}")
 
     df_appointments.to_parquet(os.path.join(gold_partition, "appointments.parquet"))
     df_patients.to_parquet(os.path.join(gold_partition, "patients.parquet"))
     df_prescriptions.to_parquet(os.path.join(gold_partition, "prescriptions.parquet"))
     df_providers.to_parquet(os.path.join(gold_partition, "providers.parquet"))
 
-    print("Arquivos salvos na camada GOLD com sucesso!")
+    print("✅ Data saved successfully to GOLD layer!")
 
-# Define a DAG
+# Define the DAG
 with DAG(
     dag_id='silver_to_gold_feature_engineering',
     start_date=datetime(2024, 1, 1),
-    schedule_interval=None,  # Manual ou trigger
+    schedule_interval=None,
     catchup=False,
     tags=['gold', 'feature-engineering', 'silver'],
 ) as dag:
